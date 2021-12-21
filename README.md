@@ -1,7 +1,6 @@
 ## Solid PHP - solid principles in PHP
 
 PHP code examples for the SOLID rules, referring to the blog post: 
-
 [Solid PHP - SOLID principles in PHP](https://accesto.com/blog/solid-php-solid-principles-in-php/)
 
 <hr />
