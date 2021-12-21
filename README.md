@@ -6,7 +6,9 @@ PHP code examples for the SOLID rules, referring to the blog post: https://acces
 
 ### Single responsibility principle 
 
-[SRP - blog paragraph](https://accesto.com/blog/solid-php-solid-principles-in-php#SingleResponsibilityPrinciple)
+> There should never be more than one reason for a class to change.
+
+[SRP - explanation](https://accesto.com/blog/solid-php-solid-principles-in-php#SingleResponsibilityPrinciple)
 
 #### Examples:
 - [single-responsibility-principle BAD](https://github.com/accesto/solid-php/blob/master/single-responsibility-principle/single-responsibility-principle-bad.php)
@@ -16,7 +18,9 @@ PHP code examples for the SOLID rules, referring to the blog post: https://acces
 
 ### Open/closed principle
 
-[OCP - blog paragraph](https://accesto.com/blog/solid-php-solid-principles-in-php#OpenClosedPrinciple)
+> Software entities ... should be open for extension, but closed for modification.
+
+[OCP - explanation](https://accesto.com/blog/solid-php-solid-principles-in-php#OpenClosedPrinciple)
 
 #### Examples:
 - [open-closed-principle BAD](https://github.com/accesto/solid-php/blob/master/open-closed-principle/open-closed-principle-bad.php)
@@ -26,7 +30,9 @@ PHP code examples for the SOLID rules, referring to the blog post: https://acces
 
 ### Liskov substitution principle
 
-[LSP - blog paragraph](https://accesto.com/blog/solid-php-solid-principles-in-php#LiskovSubstitutionPrinciple)
+> Functions that use pointers or references to base classes must be able to use objects of derived classes without knowing it.
+
+[LSP - explanation](https://accesto.com/blog/solid-php-solid-principles-in-php#LiskovSubstitutionPrinciple)
 
 #### Examples:
 - [liskov-substitution-principle BAD](https://github.com/accesto/solid-php/blob/master/liskov-substitution-principle/liskov-substitution-principle-bad.php)
@@ -36,7 +42,9 @@ PHP code examples for the SOLID rules, referring to the blog post: https://acces
 
 ### Interface segregation principle
 
-[ISP - blog paragraph](https://accesto.com/blog/solid-php-solid-principles-in-php#InterfaceSegregationPrinciple)
+> Many client-specific interfaces are better than one general-purpose interface.
+
+[ISP - explanation](https://accesto.com/blog/solid-php-solid-principles-in-php#InterfaceSegregationPrinciple)
 
 #### Examples:
 - [interface-segregation-principle BAD](https://github.com/accesto/solid-php/blob/master/interface-segregation-principle/interface-segregation-principle-bad.php)
@@ -46,7 +54,9 @@ PHP code examples for the SOLID rules, referring to the blog post: https://acces
 
 ### Dependency inversion principle
 
-[DIP - blog paragraph](https://accesto.com/blog/solid-php-solid-principles-in-php#DependencyInversionPrinciple)
+> Depend upon abstractions, NOT concretions.
+
+[DIP - explanation](https://accesto.com/blog/solid-php-solid-principles-in-php#DependencyInversionPrinciple)
 
 #### Examples:
 - [dependency-inversion-principle BAD](https://github.com/accesto/solid-php/blob/master/dependency-inversion-principle/dependency-inversion-principle-bad.php)
