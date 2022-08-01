@@ -18,9 +18,9 @@ class DatabaseLogger implements LoggerInterface
 
 class MailerService
 {
-    private LoggerInterface $logger;
+    private DatabaseLogger $logger;
 
-    public function __construct(LoggerInterface $logger)
+    public function __construct(DatabaseLogger $logger)
     {
         $this->logger = $logger;
     }
